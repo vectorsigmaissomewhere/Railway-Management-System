@@ -7,9 +7,9 @@ import java.sql.Statement;
 
 public class Database {
 	
-	private String user = "user";
-	private String pass = "#1#2#3%1%2%3";
-	private String url = "jdbc:mysql://localhost/railway management system";
+	private String user = "root";
+	private String pass = "admin";
+	private String url = "jdbc:mysql://localhost/railway_management_system";
 	private Statement statement;
 	
 	public Database() throws SQLException {

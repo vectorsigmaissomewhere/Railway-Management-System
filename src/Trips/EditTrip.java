@@ -133,9 +133,9 @@ public class EditTrip {
 				trip.setStart(start.getText());
 				trip.setDestination(destination.getText());
 				String deptTime = deptHH.getSelectedItem().toString()
-						+":"+deptmm.getSelectedItem().toString();
+						+":"+deptmm.getSelectedItem().toString()+ ":00";;
 				String arrTime = arrHH.getSelectedItem().toString()+":"+
-						arrmm.getSelectedItem().toString();
+						arrmm.getSelectedItem().toString()+ ":00";;
 				trip.setDepartureTime(deptTime);
 				trip.setArrivalTime(arrTime);
 				String d = dateyyyy.getSelectedItem().toString()+
